@@ -1,0 +1,158 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    overflow: hidden; /* para limpar o float */
+  }
+  header h1 {
+    margin: 0;
+  }
+  header a {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  
+  
+  header a img {
+    width: 30px;
+    height: 30px;
+  }
+  
+
+.about {
+	padding: 20px;
+}
+
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+	flex-basis: 30%;
+	margin: 1%;
+	background-color: #f4f4f4;
+	padding: 20px;
+	text-align: center;
+}
+
+.project img {
+	max-width: 100%;
+}
+
+.project h3 {
+	margin-top: 10px;
+}
+
+.project p {
+	font-size: 14px;
+}
+
+footer {
+	background-color: #333;
+	color: #333;
+	padding: 20px;
+	margin-top: auto;
+	text-align: center;
+	transition: background-color 0.3s ease;
+    transition: color .9s;
+}
+
+footer:hover {
+	color: #ffffff;
+    background-color: black;
+}
+.titulo {
+    transition: color .9s;
+}
+
+.titulo:hover {
+    
+	color: crimson;
+}
+
+.skills {
+	background-color: #f5f5f5;
+	padding: 50px 0;
+    text-align: center;
+}
+
+.skills table {
+	border-collapse: collapse;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.skills table td, 
+.skills table th {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: center;
+	font-size: 18px;
+	color: #333;
+}
+
+.skills table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.skills table th {
+	background-color: #009688;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.skills table th:first-child {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.skills table th:last-child {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  a:hover {
+    color: #FFA500;
+  }
+  
