@@ -63,7 +63,7 @@ h2 {
 .project {
     display: flex;
     flex-direction: column;
-	flex-basis: 30%;
+	flex-basis: 40%;
 	margin: 1%;
 	background-color: #f4f4f4;
 	padding: 20px;
@@ -174,3 +174,7 @@ a {
   .ponteiro-mouse:hover{
     cursor: pointer;
   }
+
+  
+
+  
