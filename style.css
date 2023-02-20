@@ -78,7 +78,7 @@ header {
 }
 
 .about:hover h3, .about:hover p {
-  color: #1e90ff;
+  color: #000000;
 } 
 .projects {
 	display: flex;
