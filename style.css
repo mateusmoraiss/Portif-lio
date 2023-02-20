@@ -119,11 +119,12 @@ h2 {
 	font-size: 14px;
 }
 footer {
+  display: flex;
+  align-items: center;
 	background-color: #e8f1f2;
-	color: #247ba0;
+	color: #13293d;
 	padding: 20px;
 	margin-top: auto;
-	text-align: center;
 	transition: background-color 0.3s ease;
     transition: all s;
 }
@@ -131,6 +132,16 @@ footer:hover {
 	color: #ffffff;
     background-color:#13293d;
 }
+footer:hover a {
+  color: #ffffff;
+}
+.copy{
+  margin-left: 45%;
+}
+.contato{
+  margin-left: auto;
+}
+
 .titulo {
     transition: all 3s;
 }
@@ -218,6 +229,11 @@ a {
   .photo-wrapper:hover img {
     transform: scale(1.1);
   }
+  
+  
+  
+
+  
   
   
  
