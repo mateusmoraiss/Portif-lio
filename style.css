@@ -26,17 +26,18 @@ header {
   }
   header img {
     width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-right: 20px;
+    height: 140px;
+    border-radius: 4%;
+    margin-right: 10px;
+    
   }
   h1 {
     font-size: 36px;
     margin: 0;
   }
   header a img {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
   }
   .about {
   padding: 20px;
@@ -191,6 +192,35 @@ a {
   .ponteiro-mouse:hover{
     cursor: pointer;
   }
+  
+  .photo-wrapper {
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: 2px solid #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .photo-wrapper:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  
+  .photo-wrapper img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .photo-wrapper:hover img {
+    transform: scale(1.1);
+  }
+  
+  
+ 
   
  
   
