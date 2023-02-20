@@ -73,10 +73,11 @@ h2 {
 .project:hover {
   /* estilos do projeto ao passar o mouse por cima */
   transform: scale(1.1);
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
   z-index: 1;
   font-size: 17px;
-  background-color: #d5edda;
+  background-color: #e8f1f2;
+  color: #13293d;
 }
 
 
@@ -93,25 +94,25 @@ h2 {
 }
 
 footer {
-	background-color: #333;
-	color: #333;
+	background-color: #e8f1f2;
+	color: #247ba0;
 	padding: 20px;
 	margin-top: auto;
 	text-align: center;
 	transition: background-color 0.3s ease;
-    transition: color .9s;
+    transition: all s;
 }
 
 footer:hover {
 	color: #ffffff;
-    background-color: black;
+    background-color:#13293d;
 }
 .titulo {
     transition: all 3s;
 }
 
 .titulo:hover {
-	color: rgb(255, 0, 0);
+	color: #ff0051;
   cursor: pointer;
   font-size: 40px;
  } 
@@ -155,7 +156,12 @@ footer:hover {
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 }
-
+.skills td:hover {
+  transform: scale(1.1);
+  background-color: #B3093F;
+  color: #fff;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
 a {
     color: #333;
     text-decoration: none;
@@ -165,5 +171,6 @@ a {
   a:hover {
     color: #FFA500;
   }
-
-  
+  .ponteiro-mouse:hover{
+    cursor: pointer;
+  }
