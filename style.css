@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #000000;
     color: #fff;
     padding: 20px;
     overflow: hidden; /* para limpar o float */
@@ -57,7 +57,9 @@ header {
 	justify-content: space-around;
 	padding: 20px;
 }
-
+h2 {
+  text-align: center;
+}
 .project {
     display: flex;
     flex-direction: column;
@@ -66,7 +68,17 @@ header {
 	background-color: #f4f4f4;
 	padding: 20px;
 	text-align: center;
+  transition: all 3s;
 }
+.project:hover {
+  /* estilos do projeto ao passar o mouse por cima */
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  z-index: 1;
+  font-size: 17px;
+  background-color: #d5edda;
+}
+
 
 .project img {
 	max-width: 100%;
@@ -95,26 +107,24 @@ footer:hover {
     background-color: black;
 }
 .titulo {
-    transition: color .9s;
+    transition: all 3s;
 }
 
 .titulo:hover {
-    
-	color: crimson;
-}
-
+	color: rgb(255, 0, 0);
+  cursor: pointer;
+  font-size: 40px;
+ } 
 .skills {
 	background-color: #f5f5f5;
 	padding: 50px 0;
     text-align: center;
 }
-
 .skills table {
 	border-collapse: collapse;
 	width: 80%;
 	margin: 0 auto;
 }
-
 .skills table td, 
 .skills table th {
 	border: 1px solid #ddd;
@@ -155,4 +165,5 @@ a {
   a:hover {
     color: #FFA500;
   }
+
   
